@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    min-height: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+.wrapper {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.logo {
+    float: left;
+    width: 30%;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/home.PNG);
+}
+.menubar {
+    float: right;
+    width: 60%;
+    padding-top: 35px;
+}
+.menubar ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.menubar ul li a {
+    text-decoration: none;
+    color: #467D9D;
+}
+.menubar ul li a:hover{
+    color: darkgoldenrod;
+}
+.banner {
+    background-size: cover;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/ban.jpg);
+    overflow: hidden;
+}
+.detal {
+    height: 150px;
+    width: 18%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background-color: #B2C4B9;
+    opacity: 0.8;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+.detal h2 {
+    color: white;
+    font-weight: normal;
+}
+.detal p {
+    color: white;
+    font-weight: normal;
+}
+.detal button {
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    padding: 8px 25px;
+    margin-top: 18px;
+    font-size: 15px;
+    border: 1px white;
+    border-radius: 2px;
+}
+.detal button:hover{
+    color: aqua;
+    background-color: brown;
+}
+.service {
+    height: 420px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.serv1 {
+    float: left;
+    width: 30%;
+    color: black;
+    padding: 115px 20px;
+}
+.up {
+    overflow: hidden;
+}
+.up h1 {
+    text-align: center;
+}
+.up img {
+    float: left;
+}
+.down {
+    padding-top: 14px;
+    padding-right: 108px;
+}
+.down p {
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    color: #467D9D;
+}
+.down button {
+    color: white;
+    background-color: #3B5576;
+    padding: 10px 18px;
+    font-size: 15px;
+    border: 1px white;
+    border-radius: 5px;
+    margin-left: 95px;
+}
+.down button:hover{
+    color: aqua;
+    background-color: brown;
+}
+.footer {
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.foot_menu {
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 70px;
+    color: #467D9D;
+    margin-left: 325px;
+}
+.foot_menu h4 {
+    font-size: 20px;
+}
+.foot_menu p {
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+}
+.foot_menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 12px;
+    border-right: 2px solid white;
+}
